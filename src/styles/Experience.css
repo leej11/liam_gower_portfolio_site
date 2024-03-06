@@ -1,0 +1,23 @@
+.capitaloneIcon, .playstationIcon, .eonNextIcon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.vertical-timeline-element--work .vertical-timeline-element-content {
+    border-top: 3px solid #000;
+}
+
+.vertical-timeline-element--work.eon .vertical-timeline-element-content {
+    border-top: 3px solid #ff4823ff
+}
+
+.vertical-timeline-element--work.playstation .vertical-timeline-element-content {
+    border-top: 3px solid #0070D1
+}
+
+.vertical-timeline-element--work.capitalone .vertical-timeline-element-content {
+    border-top: 3px solid #004879
+}
+
