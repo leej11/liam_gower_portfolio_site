@@ -1,7 +1,6 @@
 import React from "react";
 import LinkedInIcon from "@material-ui/icons/LinkedIn";
 import GitHubIcon from "@material-ui/icons/GitHub";
-import { Link } from "react-router-dom";
 import "../styles/Footer.css";
 
 function Footer() {
