@@ -24,7 +24,6 @@ function Experience() {
           icon={<img src={eonNextLogo} alt="eonNextLogo" width="50" />}
           iconClassName="eonNextIcon"
         >
-          <h3 className="vertical-timeline-element-title"></h3>
           <h3 className="vertical-timeline-element-title">
             Senior Data Scientist
           </h3>
