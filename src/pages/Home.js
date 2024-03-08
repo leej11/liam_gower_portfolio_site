@@ -8,7 +8,7 @@ function Home() {
   return (
     <div className="home">
       <div className="about">
-        <img src={headshot} alt="Headshot picture" height="30%" />
+        <img src={headshot} alt="Headshot" height="30%" />
         <h2>Hi, my name is Liam</h2>
         <div className="prompt">
           <p>Data Scientist & budding Software Engineer</p>
