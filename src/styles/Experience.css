@@ -1,3 +1,7 @@
+.experience {
+  background-color: #f0f0f0;
+}
+
 .capitaloneIcon, .playstationIcon, .eonNextIcon {
     display: flex;
     align-items: center;
@@ -21,3 +25,8 @@
     border-top: 3px solid #004879
 }
 
+
+/* Custom timeline line colour */
+.vertical-timeline.vertical-timeline-custom-line::before {
+    background: #343434;
+}

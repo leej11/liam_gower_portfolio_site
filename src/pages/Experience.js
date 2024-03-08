@@ -13,7 +13,7 @@ import eonNextLogo from "../assets/eonNextLogo.png";
 function Experience() {
   return (
     <div className="experience">
-      <VerticalTimeline lineColor="#3e497a">
+      <VerticalTimeline lineColor="#343434">
         {/* E.ON Next - Senior Data Scientist */}
         <VerticalTimelineElement
           className="vertical-timeline-element--work eon"
@@ -24,10 +24,12 @@ function Experience() {
           icon={<img src={eonNextLogo} alt="eonNextLogo" width="50" />}
           iconClassName="eonNextIcon"
         >
+          <h3 className="vertical-timeline-element-title"></h3>
           <h3 className="vertical-timeline-element-title">
             Senior Data Scientist
           </h3>
-          <p>E.ON Next</p>
+          <h4 className="vertical-timeline-element-subtitle">E.ON Next</h4>
+          <p>Forecasting, Causal Inference, Python Packaging, MLOps</p>
         </VerticalTimelineElement>
 
         {/* PlayStation - Data Scientist */}
@@ -39,7 +41,10 @@ function Experience() {
           iconClassName="playstationIcon"
         >
           <h3 className="vertical-timeline-element-title">Data Scientist</h3>
-          <p>Sony PlayStation</p>
+          <h4 className="vertical-timeline-element-subtitle">
+            Sony PlayStation
+          </h4>
+          <p>Causal Inference, Anomaly Detection, Generative AI, Forecasting</p>
         </VerticalTimelineElement>
 
         {/* Capital One - Senior Data Scientist */}
@@ -53,7 +58,10 @@ function Experience() {
           <h3 className="vertical-timeline-element-title">
             Senior Data Scientist
           </h3>
-          <p>Capital One</p>
+          <h4 className="vertical-timeline-element-subtitle">Capital One</h4>
+          <p>
+            Credit Risk (Default) Modelling, R & Python, Model Risk Management
+          </p>
         </VerticalTimelineElement>
 
         {/* Capital One - Senior Data Engineer */}
@@ -67,7 +75,8 @@ function Experience() {
           <h3 className="vertical-timeline-element-title">
             Senior Data Engineer
           </h3>
-          <p>Capital One</p>
+          <h4 className="vertical-timeline-element-title">Capital One</h4>
+          <p>Python packaging, Model Monitoring Automation, AWS, Dask</p>
         </VerticalTimelineElement>
 
         {/* Capital One - Senior Data Analyst */}
@@ -81,7 +90,11 @@ function Experience() {
           <h3 className="vertical-timeline-element-title">
             Senior Data Analyst
           </h3>
-          <p>Capital One</p>
+          <h4 className="vertical-timeline-element-title">Capital One</h4>
+          <p>
+            FCA regulatory reporting, End-to-end data pipelines, Tableau
+            dashboarding
+          </p>
         </VerticalTimelineElement>
 
         {/* Capital One - Data Analyst */}
@@ -93,7 +106,8 @@ function Experience() {
           iconClassName="capitaloneIcon"
         >
           <h3 className="vertical-timeline-element-title">Data Analyst</h3>
-          <p>Capital One</p>
+          <h4 className="vertical-timeline-element-title">Capital One</h4>
+          <p>MI & Control Reporting, Customer Survey Dashboard</p>
         </VerticalTimelineElement>
 
         <VerticalTimelineElement

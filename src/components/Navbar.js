@@ -34,6 +34,7 @@ function Navbar() {
         <Link to="/"> Home </Link>
         <Link to="/projects"> Projects </Link>
         <Link to="/experience"> Experience </Link>
+        <a href="https://www.liamgower.dev"> Blog </a>
       </div>
     </div>
   );

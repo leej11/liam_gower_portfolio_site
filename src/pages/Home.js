@@ -11,9 +11,16 @@ function Home() {
         <h2>Hi, my name is Liam</h2>
         <div className="prompt">
           <p>Data Scientist & budding Software Engineer</p>
-          <LinkedInIcon />
-          <EmailIcon />
-          <GitHubIcon />
+          <LinkedInIcon
+            onClick={() =>
+              window.open("https://www.linkedin.com/in/liamgower", "_blank")
+            }
+          />
+          <GitHubIcon
+            onClick={() =>
+              window.open("https://www.github.com/leej11", "_blank")
+            }
+          />
         </div>
       </div>
       <div className="skills">
@@ -21,7 +28,9 @@ function Home() {
         <ol className="list">
           <li className="item">
             <h2>Languages</h2>
-            <span>Python, R, SQL, Git, Bash, Javascript, HTML, CSS, LaTeX</span>
+            <span>
+              Python, R, SQL, Git, Bash, Javascript, ReactJS, HTML, CSS, LaTeX
+            </span>
           </li>
           <li className="item">
             <h2>Tools</h2>
